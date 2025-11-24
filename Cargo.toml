@@ -1,0 +1,7 @@
+[package]
+name = "ctui"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+crates_io_api = "0.12.0"
