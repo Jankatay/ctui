@@ -15,7 +15,7 @@ use crossterm::event::{self, KeyEvent, KeyCode};
 fn main() -> io::Result<()> {
     // init terminal and ui
     let mut terminal = ratatui::init();
-    let mut ui = Ui::new();
+    let mut ui = App::new();
 
     // while app is running
     while !ui.exit {
